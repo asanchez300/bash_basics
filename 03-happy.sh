@@ -1,12 +1,9 @@
 #!/bin/sh
 
-echo "You are happy?"
-read answer
-
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+if [[ $(date +%u) -gt 5 ]]; then
+   echo "It's the weekend"
 else
-   echo "Still Smile :)"
+   echo "It's not the weekend"
 fi
 
 # here are the other string comparison operators
