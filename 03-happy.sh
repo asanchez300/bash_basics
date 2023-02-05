@@ -1,8 +1,10 @@
 #!/bin/sh
 
 if [[ $(date +%u) -gt 5 ]]; then
-   echo "It's the weekend"
+   echo "It's the weekend" 
+
 else
+   
    echo "It's not the weekend"
 fi
 
